@@ -12,7 +12,7 @@ const uploadMiddleware = multer({ dest: 'uploads/' });
 const fs = require('fs');
 
 const salt = bcrypt.genSaltSync(10);
-const secret = process.env.DB_SECRET;
+const secret = 'asdfe45we45w345wegw345werjktjwertkj';
 
 app.use(cors({credentials:true,origin:'https://blog-app-3ly4.onrender.com'}));
 app.use(express.json());
